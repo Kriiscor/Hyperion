@@ -42,30 +42,6 @@ npm run dev
 
 Ouvre [http://localhost:3000](http://localhost:3000) dans ton navigateur et c'est bon !
 
-## 📁 Structure du Projet
-
-```
-hyperion/
-├── app/
-│   ├── (auth)/              # Groupe de routes auth
-│   ├── (dashboard)/         # Groupe de routes dashboard
-│   ├── api/                 # API routes
-│   ├── layout.tsx           # Root layout
-│   └── page.tsx             # Page d'accueil
-├── components/
-│   ├── ui/                  # shadcn/ui components
-│   ├── common/              # Composants réutilisables
-│   └── forms/               # Formulaires
-├── hooks/                   # Custom React hooks
-├── lib/
-│   ├── api.ts               # Instances API et helpers
-│   ├── queryClient.ts       # Configuration React Query
-│   └── utils.ts             # Utilitaires génériques
-├── styles/                  # Global CSS
-├── types/                   # Types TypeScript partagés
-└── env.example              # Variables d'environnement exemple
-```
-
 ## 🔧 Configuration
 
 ### Variables d'Environnement
